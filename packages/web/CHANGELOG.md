@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.8.6](https://github.com/shiwuliya/Karin/compare/web-v1.8.5...web-v1.8.6) (2025-05-10)
+
+
+### 🐛 Bug Fixes
+
+* 手风琴Pro删除按钮误触 ([#422](https://github.com/shiwuliya/Karin/issues/422)) ([7f91a57](https://github.com/shiwuliya/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af))
+
+
+### 💄 Styles
+
+* **switchs:** 使用动态类名替换硬编码的文本颜色 ([87a6fe4](https://github.com/shiwuliya/Karin/commit/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a))
+* 优化混乱的颜色。 ([d4383b1](https://github.com/shiwuliya/Karin/commit/d4383b1893d434f1592a5a460f27f8d49e62bd61))
+* 优化颜色不统一 ([9cb793f](https://github.com/shiwuliya/Karin/commit/9cb793f5b29d17f93f3068df8543145f80670efd))
+
 ## [1.8.5](https://github.com/KarinJS/Karin/compare/web-v1.8.4...web-v1.8.5) (2025-05-08)
 
 
