@@ -1,5 +1,55 @@
 # 更新日志
 
+## [1.10.0](https://github.com/shiwuliya/Karin/compare/core-v1.9.3...core-v1.10.0) (2025-05-17)
+
+
+### ✨ Features
+
+* 增加Docker安装方式以及Docker构建工作流 ([#424](https://github.com/shiwuliya/Karin/issues/424)) ([f58417d](https://github.com/shiwuliya/Karin/commit/f58417d4593f74b710a5072f5aacdcc8c3d07fab))
+
+
+### 🐛 Bug Fixes
+
+* `.npmrc` ([#404](https://github.com/shiwuliya/Karin/issues/404)) ([7769c31](https://github.com/shiwuliya/Karin/commit/7769c31b63f7d458d4f4ca21ba4c2cd523c83b5e))
+* clearCache ([#418](https://github.com/shiwuliya/Karin/issues/418)) ([652b8fd](https://github.com/shiwuliya/Karin/commit/652b8fdd65bf461fbbe85c3ba7b4dfc948cce915))
+* close [#407](https://github.com/shiwuliya/Karin/issues/407) ([#433](https://github.com/shiwuliya/Karin/issues/433)) ([2af7499](https://github.com/shiwuliya/Karin/commit/2af74998afc20213b731fa9680fb19a5c87e7937))
+* close [#408](https://github.com/shiwuliya/Karin/issues/408) ([#409](https://github.com/shiwuliya/Karin/issues/409)) ([8c78b4a](https://github.com/shiwuliya/Karin/commit/8c78b4a753a791248ab752e2a8426ff82eb467d5))
+* close [#426](https://github.com/shiwuliya/Karin/issues/426) ([c83f13e](https://github.com/shiwuliya/Karin/commit/c83f13e3539be19f40d1c2eca272d482c7dc6f05))
+* close [#431](https://github.com/shiwuliya/Karin/issues/431) ([3ee87d6](https://github.com/shiwuliya/Karin/commit/3ee87d6442ddeb35e82e0b6b28e2ede97ccd1654))
+* close [#439](https://github.com/shiwuliya/Karin/issues/439) close [#438](https://github.com/shiwuliya/Karin/issues/438) ([ea5db12](https://github.com/shiwuliya/Karin/commit/ea5db1280a8468a37075dbc94b24fa14ac6757fa))
+* **onebot:** 控制台不输出`base64://...` ([#402](https://github.com/shiwuliya/Karin/issues/402)) ([a51d382](https://github.com/shiwuliya/Karin/commit/a51d382feda71bc5838a085d0123ea7ec9e56213))
+* restart ([#415](https://github.com/shiwuliya/Karin/issues/415)) ([790ccdd](https://github.com/shiwuliya/Karin/commit/790ccddf3c09ef1c91e5b344d3ff9afa7d116e8e))
+* 修复`web-config`读取的是缓存 ([#405](https://github.com/shiwuliya/Karin/issues/405)) ([3335cef](https://github.com/shiwuliya/Karin/commit/3335cefc70b811e11084f4cee1a87c8602ae6838))
+* 修复主进程退出时子进程未被正确终止的问题 修复场景唯一标识符缓存问题 ([#413](https://github.com/shiwuliya/Karin/issues/413)) ([e971438](https://github.com/shiwuliya/Karin/commit/e971438892fe5726466ddfc1fd408599d8af6457))
+* 修复群消息下会话条件判断错误问题 ([#411](https://github.com/shiwuliya/Karin/issues/411)) ([49d3b49](https://github.com/shiwuliya/Karin/commit/49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629))
+
+
+### 🎫 Chores
+
+* release main ([#400](https://github.com/shiwuliya/Karin/issues/400)) ([75f0148](https://github.com/shiwuliya/Karin/commit/75f0148098929fb43579410ab9922a55dfe482d3))
+* release main ([#403](https://github.com/shiwuliya/Karin/issues/403)) ([6fb69ec](https://github.com/shiwuliya/Karin/commit/6fb69ecbe7622a61fbf0a80aed7e195b45680674))
+* release main ([#406](https://github.com/shiwuliya/Karin/issues/406)) ([56304a6](https://github.com/shiwuliya/Karin/commit/56304a6090b717258a2c21391b9ce4442957c7c1))
+* release main ([#410](https://github.com/shiwuliya/Karin/issues/410)) ([7bb1371](https://github.com/shiwuliya/Karin/commit/7bb137122f8f2b2b95dac25b927ce78264b44ca9))
+* release main ([#412](https://github.com/shiwuliya/Karin/issues/412)) ([4ff8e5a](https://github.com/shiwuliya/Karin/commit/4ff8e5abd12a667fa917efd5f7247958db9b346b))
+* release main ([#414](https://github.com/shiwuliya/Karin/issues/414)) ([cb04e13](https://github.com/shiwuliya/Karin/commit/cb04e134364d097500648171b6551040dee5564c))
+* release main ([#416](https://github.com/shiwuliya/Karin/issues/416)) ([3aa97db](https://github.com/shiwuliya/Karin/commit/3aa97db21f8492e570ad48121bca628b289409b0))
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+* release main ([#430](https://github.com/shiwuliya/Karin/issues/430)) ([006a212](https://github.com/shiwuliya/Karin/commit/006a21298fa6b055508b3000ba38c2319102de00))
+* release main ([#432](https://github.com/shiwuliya/Karin/issues/432)) ([d416865](https://github.com/shiwuliya/Karin/commit/d416865112f6c51046bd4939fa6fbb29d1ee6a87))
+* release main ([#440](https://github.com/shiwuliya/Karin/issues/440)) ([3c82f95](https://github.com/shiwuliya/Karin/commit/3c82f95a56d475eccfa645b8c57a2072876320d1))
+
+
+### ♻️ Code Refactoring
+
+* **core:** 优化插件目录创建逻辑 ([#429](https://github.com/shiwuliya/Karin/issues/429)) ([3828411](https://github.com/shiwuliya/Karin/commit/382841192b4fe3f91a2797d2118d654a42308d1b))
+* 重构日志模块 ([#393](https://github.com/shiwuliya/Karin/issues/393)) ([21d0878](https://github.com/shiwuliya/Karin/commit/21d0878571c30353c7c852dd8edab6a715a811a0))
+
+
+### 🎡 Continuous Integration
+
+* ban publish-minimal-repro ([#417](https://github.com/shiwuliya/Karin/issues/417)) ([6ddcf80](https://github.com/shiwuliya/Karin/commit/6ddcf803c99bac68662dbd95902f02bc8b6078cd))
+* 优化ci ([#428](https://github.com/shiwuliya/Karin/issues/428)) ([75fe5cb](https://github.com/shiwuliya/Karin/commit/75fe5cb5a33b59e0089a39e540602202eb2c675b))
+
 ## [1.9.3](https://github.com/KarinJS/Karin/compare/core-v1.9.2...core-v1.9.3) (2025-05-17)
 
 

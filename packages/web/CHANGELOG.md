@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.8.7](https://github.com/shiwuliya/Karin/compare/web-v1.8.6...web-v1.8.7) (2025-05-17)
+
+
+### 🐛 Bug Fixes
+
+* `.npmrc` ([#404](https://github.com/shiwuliya/Karin/issues/404)) ([7769c31](https://github.com/shiwuliya/Karin/commit/7769c31b63f7d458d4f4ca21ba4c2cd523c83b5e))
+* close [#408](https://github.com/shiwuliya/Karin/issues/408) ([#409](https://github.com/shiwuliya/Karin/issues/409)) ([8c78b4a](https://github.com/shiwuliya/Karin/commit/8c78b4a753a791248ab752e2a8426ff82eb467d5))
+* 修复`web-config`读取的是缓存 ([#405](https://github.com/shiwuliya/Karin/issues/405)) ([3335cef](https://github.com/shiwuliya/Karin/commit/3335cefc70b811e11084f4cee1a87c8602ae6838))
+* 手风琴Pro删除按钮误触 ([#422](https://github.com/shiwuliya/Karin/issues/422)) ([7f91a57](https://github.com/shiwuliya/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af))
+
+
+### 📝 Documentation
+
+* 更新README文件并添加缺失的文档 ([#399](https://github.com/shiwuliya/Karin/issues/399)) ([21a3010](https://github.com/shiwuliya/Karin/commit/21a30101f1e41dfa35db1a70d18ac2f60df35611))
+
+
+### 💄 Styles
+
+* **switchs:** 使用动态类名替换硬编码的文本颜色 ([87a6fe4](https://github.com/shiwuliya/Karin/commit/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a))
+* 优化混乱的颜色。 ([d4383b1](https://github.com/shiwuliya/Karin/commit/d4383b1893d434f1592a5a460f27f8d49e62bd61))
+* 优化颜色不统一 ([9cb793f](https://github.com/shiwuliya/Karin/commit/9cb793f5b29d17f93f3068df8543145f80670efd))
+
+
+### 🎫 Chores
+
+* release main ([#400](https://github.com/shiwuliya/Karin/issues/400)) ([75f0148](https://github.com/shiwuliya/Karin/commit/75f0148098929fb43579410ab9922a55dfe482d3))
+* release main ([#403](https://github.com/shiwuliya/Karin/issues/403)) ([6fb69ec](https://github.com/shiwuliya/Karin/commit/6fb69ecbe7622a61fbf0a80aed7e195b45680674))
+* release main ([#406](https://github.com/shiwuliya/Karin/issues/406)) ([56304a6](https://github.com/shiwuliya/Karin/commit/56304a6090b717258a2c21391b9ce4442957c7c1))
+* release main ([#410](https://github.com/shiwuliya/Karin/issues/410)) ([7bb1371](https://github.com/shiwuliya/Karin/commit/7bb137122f8f2b2b95dac25b927ce78264b44ca9))
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+
 ## [1.8.6](https://github.com/KarinJS/Karin/compare/web-v1.8.5...web-v1.8.6) (2025-05-10)
 
 

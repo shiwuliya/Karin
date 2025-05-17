@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.6](https://github.com/shiwuliya/Karin/compare/create-karin-v1.1.5...create-karin-v1.1.6) (2025-05-17)
+
+
+### 🐛 Bug Fixes
+
+* ci ([#425](https://github.com/shiwuliya/Karin/issues/425)) ([6954767](https://github.com/shiwuliya/Karin/commit/69547673a85cce500e589c815ac362ada599bc41))
+
+
+### 📝 Documentation
+
+* 更新README文件并添加缺失的文档 ([#399](https://github.com/shiwuliya/Karin/issues/399)) ([21a3010](https://github.com/shiwuliya/Karin/commit/21a30101f1e41dfa35db1a70d18ac2f60df35611))
+
+
+### 🎫 Chores
+
+* release main ([#400](https://github.com/shiwuliya/Karin/issues/400)) ([75f0148](https://github.com/shiwuliya/Karin/commit/75f0148098929fb43579410ab9922a55dfe482d3))
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+
 ## [1.1.5](https://github.com/KarinJS/Karin/compare/create-karin-v1.1.4...create-karin-v1.1.5) (2025-05-10)
 
 
