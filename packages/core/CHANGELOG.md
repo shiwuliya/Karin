@@ -1,5 +1,55 @@
 # 更新日志
 
+## [1.10.0](https://github.com/shiwuliya/Karin/compare/core-v1.9.8...core-v1.10.0) (2025-05-24)
+
+
+### ✨ Features
+
+* 增加Docker安装方式以及Docker构建工作流 ([#424](https://github.com/shiwuliya/Karin/issues/424)) ([f58417d](https://github.com/shiwuliya/Karin/commit/f58417d4593f74b710a5072f5aacdcc8c3d07fab))
+
+
+### 🐛 Bug Fixes
+
+* close [#407](https://github.com/shiwuliya/Karin/issues/407) ([#433](https://github.com/shiwuliya/Karin/issues/433)) ([2af7499](https://github.com/shiwuliya/Karin/commit/2af74998afc20213b731fa9680fb19a5c87e7937))
+* close [#426](https://github.com/shiwuliya/Karin/issues/426) ([c83f13e](https://github.com/shiwuliya/Karin/commit/c83f13e3539be19f40d1c2eca272d482c7dc6f05))
+* close [#431](https://github.com/shiwuliya/Karin/issues/431) ([3ee87d6](https://github.com/shiwuliya/Karin/commit/3ee87d6442ddeb35e82e0b6b28e2ede97ccd1654))
+* close [#436](https://github.com/shiwuliya/Karin/issues/436) ([9ff2938](https://github.com/shiwuliya/Karin/commit/9ff2938a386193c42cef91160205d254865e77c3))
+* close [#439](https://github.com/shiwuliya/Karin/issues/439) close [#438](https://github.com/shiwuliya/Karin/issues/438) ([ea5db12](https://github.com/shiwuliya/Karin/commit/ea5db1280a8468a37075dbc94b24fa14ac6757fa))
+* close [#448](https://github.com/shiwuliya/Karin/issues/448) ([0f552d9](https://github.com/shiwuliya/Karin/commit/0f552d91743b8d01fd916d50e33f38abec4f0863))
+* 升级版本后重启找不到入口文件 ([eadc52f](https://github.com/shiwuliya/Karin/commit/eadc52f6e3206b9b5c399e689c64ab7c95f18c8a))
+* 发版 ([11a3701](https://github.com/shiwuliya/Karin/commit/11a3701d38d0c51295c1afdfb0c652d5699877b2))
+* 提升兼容性 ([506453e](https://github.com/shiwuliya/Karin/commit/506453e1f4a7809ac4010581555ad6f4d3e9f205))
+
+
+### ⚡️ Performance
+
+* 优化`raceRequest`函数 ([0455a3c](https://github.com/shiwuliya/Karin/commit/0455a3c3e9cba1f19c7b6ed1862a16f072cd3599))
+* 优化事件工具 新增`hasPermission` ([fb1d693](https://github.com/shiwuliya/Karin/commit/fb1d693c0af1b90fbf2b9e417ac45ff54a7dab07))
+* 优化全局配置 添加对应配置项 ([f6c81d3](https://github.com/shiwuliya/Karin/commit/f6c81d38d20397f9391ec44703126bafc3c52197))
+
+
+### 🎫 Chores
+
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+* release main ([#430](https://github.com/shiwuliya/Karin/issues/430)) ([006a212](https://github.com/shiwuliya/Karin/commit/006a21298fa6b055508b3000ba38c2319102de00))
+* release main ([#432](https://github.com/shiwuliya/Karin/issues/432)) ([d416865](https://github.com/shiwuliya/Karin/commit/d416865112f6c51046bd4939fa6fbb29d1ee6a87))
+* release main ([#440](https://github.com/shiwuliya/Karin/issues/440)) ([3c82f95](https://github.com/shiwuliya/Karin/commit/3c82f95a56d475eccfa645b8c57a2072876320d1))
+* release main ([#441](https://github.com/shiwuliya/Karin/issues/441)) ([75e858a](https://github.com/shiwuliya/Karin/commit/75e858a32fc92bab124cad6e184a3e5306baff98))
+* release main ([#443](https://github.com/shiwuliya/Karin/issues/443)) ([2982a81](https://github.com/shiwuliya/Karin/commit/2982a81e77444a63c29643f45ef485420fe35075))
+* release main ([#445](https://github.com/shiwuliya/Karin/issues/445)) ([5cf6ebe](https://github.com/shiwuliya/Karin/commit/5cf6ebedac7b9f22a8e52529b7848c4694575740))
+* release main ([#447](https://github.com/shiwuliya/Karin/issues/447)) ([fe5503b](https://github.com/shiwuliya/Karin/commit/fe5503b64456662168fe5a3f3ebd30ef6e805294))
+* release main ([#451](https://github.com/shiwuliya/Karin/issues/451)) ([069a5f3](https://github.com/shiwuliya/Karin/commit/069a5f3801633e83154e613ff38b44eda5a5bb18))
+
+
+### ♻️ Code Refactoring
+
+* **core:** 优化插件目录创建逻辑 ([#429](https://github.com/shiwuliya/Karin/issues/429)) ([3828411](https://github.com/shiwuliya/Karin/commit/382841192b4fe3f91a2797d2118d654a42308d1b))
+
+
+### 🎡 Continuous Integration
+
+* 优化ci ([#428](https://github.com/shiwuliya/Karin/issues/428)) ([75fe5cb](https://github.com/shiwuliya/Karin/commit/75fe5cb5a33b59e0089a39e540602202eb2c675b))
+
 ## [1.9.8](https://github.com/KarinJS/Karin/compare/core-v1.9.7...core-v1.9.8) (2025-05-24)
 
 

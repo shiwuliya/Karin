@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.3.0](https://github.com/shiwuliya/Karin/compare/create-karin-v1.2.0...create-karin-v1.3.0) (2025-05-24)
+
+
+### ✨ Features
+
+* 新增静默安装参数-y ([a70e481](https://github.com/shiwuliya/Karin/commit/a70e48190a1a697191674e33a4def59e125e1c66))
+
+
+### 🐛 Bug Fixes
+
+* ci ([#425](https://github.com/shiwuliya/Karin/issues/425)) ([6954767](https://github.com/shiwuliya/Karin/commit/69547673a85cce500e589c815ac362ada599bc41))
+* **create:** 修复模板缺少的文件 ([4f6172f](https://github.com/shiwuliya/Karin/commit/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03))
+* 修复模板缺少的依赖项 修正ci ([f891684](https://github.com/shiwuliya/Karin/commit/f891684c22e68e90a8370fdc13a3541671b9d88b))
+* 修正创建开发模板 ([1f7138f](https://github.com/shiwuliya/Karin/commit/1f7138fc6b209e72944aff2d35304fb0501efd0a))
+
+
+### 🎫 Chores
+
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+* release main ([#441](https://github.com/shiwuliya/Karin/issues/441)) ([75e858a](https://github.com/shiwuliya/Karin/commit/75e858a32fc92bab124cad6e184a3e5306baff98))
+* release main ([#442](https://github.com/shiwuliya/Karin/issues/442)) ([72d531a](https://github.com/shiwuliya/Karin/commit/72d531ad28501ff8623c420a172d38f8e9355622))
+* release main ([#444](https://github.com/shiwuliya/Karin/issues/444)) ([8278042](https://github.com/shiwuliya/Karin/commit/8278042a5230a25ae2821b1000902cf6d459c0ef))
+* release main ([#447](https://github.com/shiwuliya/Karin/issues/447)) ([fe5503b](https://github.com/shiwuliya/Karin/commit/fe5503b64456662168fe5a3f3ebd30ef6e805294))
+
+
+### 🎡 Continuous Integration
+
+* 1.1.8 ([923f370](https://github.com/shiwuliya/Karin/commit/923f370350448070a7961bfbad2477577ca9d3cd))
+
 ## [1.2.0](https://github.com/KarinJS/Karin/compare/create-karin-v1.1.8...create-karin-v1.2.0) (2025-05-23)
 
 

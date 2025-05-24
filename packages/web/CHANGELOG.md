@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.8.9](https://github.com/shiwuliya/Karin/compare/web-v1.8.8...web-v1.8.9) (2025-05-24)
+
+
+### 🐛 Bug Fixes
+
+* 提升兼容性 ([506453e](https://github.com/shiwuliya/Karin/commit/506453e1f4a7809ac4010581555ad6f4d3e9f205))
+
+
+### ⚡️ Performance
+
+* 优化全局配置 添加对应配置项 ([f6c81d3](https://github.com/shiwuliya/Karin/commit/f6c81d38d20397f9391ec44703126bafc3c52197))
+
+
+### 💄 Styles
+
+* 优化混乱的颜色。 ([d4383b1](https://github.com/shiwuliya/Karin/commit/d4383b1893d434f1592a5a460f27f8d49e62bd61))
+* 优化颜色不统一 ([9cb793f](https://github.com/shiwuliya/Karin/commit/9cb793f5b29d17f93f3068df8543145f80670efd))
+
+
+### 🎫 Chores
+
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+* release main ([#441](https://github.com/shiwuliya/Karin/issues/441)) ([75e858a](https://github.com/shiwuliya/Karin/commit/75e858a32fc92bab124cad6e184a3e5306baff98))
+* release main ([#443](https://github.com/shiwuliya/Karin/issues/443)) ([2982a81](https://github.com/shiwuliya/Karin/commit/2982a81e77444a63c29643f45ef485420fe35075))
+
 ## [1.8.8](https://github.com/KarinJS/Karin/compare/web-v1.8.7...web-v1.8.8) (2025-05-21)
 
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.6](https://github.com/shiwuliya/Karin/compare/cli-v1.1.5...cli-v1.1.6) (2025-05-24)
+
+
+### 🐛 Bug Fixes
+
+* ci ([#425](https://github.com/shiwuliya/Karin/issues/425)) ([6954767](https://github.com/shiwuliya/Karin/commit/69547673a85cce500e589c815ac362ada599bc41))
+
+
+### 🎫 Chores
+
+* release main ([#423](https://github.com/shiwuliya/Karin/issues/423)) ([eb12d52](https://github.com/shiwuliya/Karin/commit/eb12d52f4c43a2932a19d066e11cecb9b96dd759))
+
 ## [1.1.5](https://github.com/KarinJS/Karin/compare/cli-v1.1.4...cli-v1.1.5) (2025-05-10)
 
 
