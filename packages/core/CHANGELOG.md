@@ -1,5 +1,70 @@
 # 更新日志
 
+## [1.15.0](https://github.com/shiwuliya/Karin/compare/core-v1.14.1...core-v1.15.0) (2025-12-25)
+
+
+### ✨ Features
+
+* add select dropdown component to web.config system ([#558](https://github.com/shiwuliya/Karin/issues/558)) ([9040420](https://github.com/shiwuliya/Karin/commit/9040420233fb063d69b5e599025999c9ca0dec00))
+* bot 连接事件 ([#597](https://github.com/shiwuliya/Karin/issues/597)) ([c373d1f](https://github.com/shiwuliya/Karin/commit/c373d1f328b484a4af929a6b5a1306bf912af8d2))
+* 使用@karinjs/log4js 增强开发体验 ([#577](https://github.com/shiwuliya/Karin/issues/577)) ([4e4f998](https://github.com/shiwuliya/Karin/commit/4e4f9980cb70e7267a41d63630e9841c74bab161))
+
+
+### 🐛 Bug Fixes
+
+* build & 暴露 `ONLINE` 事件 ([#588](https://github.com/shiwuliya/Karin/issues/588)) ([788f17a](https://github.com/shiwuliya/Karin/commit/788f17a33771e86312fd2cc94a453ac1081ec4a7))
+* Change faceId type from number to number | string in setMsgReaction ([#534](https://github.com/shiwuliya/Karin/issues/534)) ([5233508](https://github.com/shiwuliya/Karin/commit/523350882848ff3bef2313cb0a147d46da45a2e0))
+* ci ([#586](https://github.com/shiwuliya/Karin/issues/586)) ([1a5f998](https://github.com/shiwuliya/Karin/commit/1a5f9983f7e74961d7e25eb78086a1c9e1bd9d38))
+* ci ([#591](https://github.com/shiwuliya/Karin/issues/591)) ([1c43f3d](https://github.com/shiwuliya/Karin/commit/1c43f3d9deec7f3276d0a2bf9bc319ed2ee5abab))
+* ci ([#593](https://github.com/shiwuliya/Karin/issues/593)) ([9284a0b](https://github.com/shiwuliya/Karin/commit/9284a0b7c6529711656ba21f5d2c68f3705cbdea))
+* console adapter to use correct file extensions for video and audio files ([#538](https://github.com/shiwuliya/Karin/issues/538)) ([f157112](https://github.com/shiwuliya/Karin/commit/f1571120e7599c103fc9615fe9551b4eb8bf4b6e))
+* correct Redis mock SET method options handling and type checking ([#546](https://github.com/shiwuliya/Karin/issues/546)) ([fb6a999](https://github.com/shiwuliya/Karin/commit/fb6a99957974932d7222eb0be1510906483d4483))
+* Display description text for checkbox component options ([#552](https://github.com/shiwuliya/Karin/issues/552)) ([85eb323](https://github.com/shiwuliya/Karin/commit/85eb323526dfc6188e3eaedafa1e61c6424eae39))
+* improve OneBot adapter compatibility for sub_type=normal in private messages ([#555](https://github.com/shiwuliya/Karin/issues/555)) ([bc46fa5](https://github.com/shiwuliya/Karin/commit/bc46fa5526d34dc608787c07a318334cc8b5e5a1))
+* Prevent loading plugins with incompatible engine versions and add ignoreEngines option ([#571](https://github.com/shiwuliya/Karin/issues/571)) ([33e3279](https://github.com/shiwuliya/Karin/commit/33e3279a30908a4aad10cc9d1cba5cd16d17c382))
+* Support all semantic versioning formats in changelog parser ([#566](https://github.com/shiwuliya/Karin/issues/566)) ([de6b397](https://github.com/shiwuliya/Karin/commit/de6b397ebb9fdba85d8b5999a96ed29bb1da9dd8))
+* **update:** 增强版本比较功能，支持严格语义化版本模式 ([#568](https://github.com/shiwuliya/Karin/issues/568)) ([da3843a](https://github.com/shiwuliya/Karin/commit/da3843ae3c770b308583d9b0671d4dbd36ce37ec))
+* use ID generator API for unique incremental IDs in input adapter ([#549](https://github.com/shiwuliya/Karin/issues/549)) ([a373a71](https://github.com/shiwuliya/Karin/commit/a373a711899682aa84ed417d1564ab6321d69396))
+* 优化ci ([#584](https://github.com/shiwuliya/Karin/issues/584)) ([06ee51d](https://github.com/shiwuliya/Karin/commit/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274))
+* 使用可信任发布 ([#582](https://github.com/shiwuliya/Karin/issues/582)) ([4a3b48d](https://github.com/shiwuliya/Karin/commit/4a3b48d88d4955f5e4b312c92245bfe49c4bf1c9))
+* 修复 Redis Mock 客户端缺少 setEx 等常用方法的问题 ([#543](https://github.com/shiwuliya/Karin/issues/543)) ([3797b4f](https://github.com/shiwuliya/Karin/commit/3797b4f7721df1428f0f5b068fb77fda017a3792))
+* 修复setGgroupHighlights的命名为setGroupHighlights ([#562](https://github.com/shiwuliya/Karin/issues/562)) ([8f149a6](https://github.com/shiwuliya/Karin/commit/8f149a6678eec390b3897be1a01de0af4abcc301))
+* 修改插件名为plugin-puppeteer ([#578](https://github.com/shiwuliya/Karin/issues/578)) ([5f48dba](https://github.com/shiwuliya/Karin/commit/5f48dbae0c2349c143fe6c232fcffc5a8bab4d30))
+* 增强ffmpeg鲁棒性 ([#574](https://github.com/shiwuliya/Karin/issues/574)) ([972c901](https://github.com/shiwuliya/Karin/commit/972c9013b13fac197a2e1eb19a7341a3a48b380c))
+* 导出@karinjs/log4js ([#595](https://github.com/shiwuliya/Karin/issues/595)) ([8b54a0f](https://github.com/shiwuliya/Karin/commit/8b54a0f751e80a6689fefb986b4f7fc16369e966))
+* 更新依赖 兼容node18版本 ([#580](https://github.com/shiwuliya/Karin/issues/580)) ([ca80263](https://github.com/shiwuliya/Karin/commit/ca802635350d205d08c377eb00ebf9054921a38d))
+* 添加定时任务执行策略选项 ([#604](https://github.com/shiwuliya/Karin/issues/604)) ([7f81df5](https://github.com/shiwuliya/Karin/commit/7f81df561156dba7f65d44d46dbec7583eddbcf6))
+
+
+### 📝 Documentation
+
+* 添加构建文档脚本 ([#559](https://github.com/shiwuliya/Karin/issues/559)) ([8cca251](https://github.com/shiwuliya/Karin/commit/8cca2516bb2711775431376bca7a44945f652be2))
+
+
+### 🎫 Chores
+
+* release main ([#537](https://github.com/shiwuliya/Karin/issues/537)) ([f23c0c7](https://github.com/shiwuliya/Karin/commit/f23c0c766f8c74c7a2feab570797cde3bb27a1b5))
+* release main ([#539](https://github.com/shiwuliya/Karin/issues/539)) ([29f421a](https://github.com/shiwuliya/Karin/commit/29f421a787e9554b2fdc4e5550f2b015d96ee31f))
+* release main ([#544](https://github.com/shiwuliya/Karin/issues/544)) ([3c221a1](https://github.com/shiwuliya/Karin/commit/3c221a12c4897ef3bdb5c3bbcfc21302db0490c1))
+* release main ([#547](https://github.com/shiwuliya/Karin/issues/547)) ([3c7fc97](https://github.com/shiwuliya/Karin/commit/3c7fc9781d6443406748bb547cf2135c0a599c81))
+* release main ([#550](https://github.com/shiwuliya/Karin/issues/550)) ([0bdc0ed](https://github.com/shiwuliya/Karin/commit/0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b))
+* release main ([#553](https://github.com/shiwuliya/Karin/issues/553)) ([45ffc90](https://github.com/shiwuliya/Karin/commit/45ffc90cb013a3590bf887caa2a36841202a4d88))
+* release main ([#556](https://github.com/shiwuliya/Karin/issues/556)) ([3482ecf](https://github.com/shiwuliya/Karin/commit/3482ecf121370e1444c2f35b7485bc7dfec7ca0a))
+* release main ([#563](https://github.com/shiwuliya/Karin/issues/563)) ([edc511b](https://github.com/shiwuliya/Karin/commit/edc511bd11f6623f208cc68e848611155846af14))
+* release main ([#567](https://github.com/shiwuliya/Karin/issues/567)) ([6d5e083](https://github.com/shiwuliya/Karin/commit/6d5e0834d1502bfeede750a7f0b2daaf7b54d7eb))
+* release main ([#569](https://github.com/shiwuliya/Karin/issues/569)) ([69b895a](https://github.com/shiwuliya/Karin/commit/69b895aa5982ec76e3345927b8962146cc6b8bda))
+* release main ([#573](https://github.com/shiwuliya/Karin/issues/573)) ([1ac356e](https://github.com/shiwuliya/Karin/commit/1ac356e59ceff0f8327f5937f4a62e837dabb8eb))
+* release main ([#581](https://github.com/shiwuliya/Karin/issues/581)) ([fee9269](https://github.com/shiwuliya/Karin/commit/fee9269027ba943f449f68b238a49bfc0826f19f))
+* release main ([#583](https://github.com/shiwuliya/Karin/issues/583)) ([8e30880](https://github.com/shiwuliya/Karin/commit/8e30880979f34a6d71b80749cbd7431db954d53a))
+* release main ([#585](https://github.com/shiwuliya/Karin/issues/585)) ([95f9b8b](https://github.com/shiwuliya/Karin/commit/95f9b8b74558c6aeb78e210bda0abbfafc70772b))
+* release main ([#587](https://github.com/shiwuliya/Karin/issues/587)) ([cc81894](https://github.com/shiwuliya/Karin/commit/cc81894f63c5d2c892b6cb3395dbcd4fb62d377a))
+* release main ([#589](https://github.com/shiwuliya/Karin/issues/589)) ([0ac2456](https://github.com/shiwuliya/Karin/commit/0ac2456583ab4eae69fff210edbd3ae48a91d28b))
+* release main ([#592](https://github.com/shiwuliya/Karin/issues/592)) ([8277415](https://github.com/shiwuliya/Karin/commit/82774155ee89cb95dfa9d3493c6b20b1a1b0fdb9))
+* release main ([#594](https://github.com/shiwuliya/Karin/issues/594)) ([d206817](https://github.com/shiwuliya/Karin/commit/d2068171903284b6a6e9d16435ec65a93eda3aeb))
+* release main ([#596](https://github.com/shiwuliya/Karin/issues/596)) ([63b0ff5](https://github.com/shiwuliya/Karin/commit/63b0ff599fc64d638944aa21dbd87755af1c29df))
+* release main ([#598](https://github.com/shiwuliya/Karin/issues/598)) ([b441c1d](https://github.com/shiwuliya/Karin/commit/b441c1dafbf0a9b83f3567e933b0a55e02308243))
+* release main ([#605](https://github.com/shiwuliya/Karin/issues/605)) ([3605147](https://github.com/shiwuliya/Karin/commit/3605147ac826c2a69267799d285750eabe5b2044))
+
 ## [1.14.1](https://github.com/KarinJS/Karin/compare/core-v1.14.0...core-v1.14.1) (2025-12-25)
 
 

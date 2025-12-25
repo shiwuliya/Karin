@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.11.0](https://github.com/shiwuliya/Karin/compare/web-v1.10.0...web-v1.11.0) (2025-12-25)
+
+
+### ✨ Features
+
+* add select dropdown component to web.config system ([#558](https://github.com/shiwuliya/Karin/issues/558)) ([9040420](https://github.com/shiwuliya/Karin/commit/9040420233fb063d69b5e599025999c9ca0dec00))
+
+
+### 🐛 Bug Fixes
+
+* Display description text for checkbox component options ([#552](https://github.com/shiwuliya/Karin/issues/552)) ([85eb323](https://github.com/shiwuliya/Karin/commit/85eb323526dfc6188e3eaedafa1e61c6424eae39))
+
+
+### 🎫 Chores
+
+* release main ([#539](https://github.com/shiwuliya/Karin/issues/539)) ([29f421a](https://github.com/shiwuliya/Karin/commit/29f421a787e9554b2fdc4e5550f2b015d96ee31f))
+* release main ([#553](https://github.com/shiwuliya/Karin/issues/553)) ([45ffc90](https://github.com/shiwuliya/Karin/commit/45ffc90cb013a3590bf887caa2a36841202a4d88))
+* release main ([#563](https://github.com/shiwuliya/Karin/issues/563)) ([edc511b](https://github.com/shiwuliya/Karin/commit/edc511bd11f6623f208cc68e848611155846af14))
+
+
+### 📦️ Build System
+
+* **deps-dev:** bump vite-plugin-static-copy from 2.3.0 to 2.3.2 ([#518](https://github.com/shiwuliya/Karin/issues/518)) ([a434d07](https://github.com/shiwuliya/Karin/commit/a434d077b312a87fc9c8df056be5785d74fe8311))
+
 ## [1.10.0](https://github.com/KarinJS/Karin/compare/web-v1.9.10...web-v1.10.0) (2025-10-15)
 
 
